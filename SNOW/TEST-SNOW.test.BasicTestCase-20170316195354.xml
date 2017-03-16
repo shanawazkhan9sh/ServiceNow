@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="3" name="SNOW.test.BasicTestCase-20170316195354" skipped="0" tests="4" time="0.001">
+	<testcase classname="SNOW.test.BasicTestCase" name="test_upper" time="0.000"/>
+	<testcase classname="SNOW.test.BasicTestCase" name="test_addition" time="0.001">
+		<failure message="3 != 4" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\projects\ServiceNow\SNOW\SNOW\test.py", line 8, in test_addition
+    self.assertEqual(1 + 2, 4)
+AssertionError: 3 != 4
+]]>		</failure>
+	</testcase>
+	<testcase classname="SNOW.test.BasicTestCase" name="test_mul" time="0.000">
+		<failure message="10 != 4" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\projects\ServiceNow\SNOW\SNOW\test.py", line 14, in test_mul
+    self.assertEqual(5 * 2, 4)
+AssertionError: 10 != 4
+]]>		</failure>
+	</testcase>
+	<testcase classname="SNOW.test.BasicTestCase" name="test_sub" time="0.000">
+		<failure message="3 != 4" type="AssertionError">
+<![CDATA[Traceback (most recent call last):
+  File "C:\projects\ServiceNow\SNOW\SNOW\test.py", line 11, in test_sub
+    self.assertEqual(5 - 2, 4)
+AssertionError: 3 != 4
+]]>		</failure>
+	</testcase>
+	<system-out>
+<![CDATA[]]>	</system-out>
+	<system-err>
+<![CDATA[]]>	</system-err>
+</testsuite>
