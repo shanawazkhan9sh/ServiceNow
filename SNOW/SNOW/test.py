@@ -17,9 +17,9 @@ class BasicTestCase(TestCase):
 		self.assertEqual("nishant".upper(), "NISHANT")
 		
 if __name__ == '__main__':
-    unittest.main(
-        testRunner=xmlrunner.XMLTestRunner(output='test-reports'),
-        # these make sure that some options that are not applicable
-        # remain hidden from the help menu.
-        failfast=False, buffer=False, catchbreak=False)
+    with open('results.xml', 'wb') as output:
+        unittest.main(
+            testRunner=xmlrunner.XMLTestRunner(output=output),
+            failfast=False, buffer=False, catchbreak=False)
+
 
